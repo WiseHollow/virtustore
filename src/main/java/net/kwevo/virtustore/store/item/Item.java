@@ -8,6 +8,7 @@ import javax.persistence.*;
 public class Item {
     @Id
     @Column(nullable = false)
+    @GeneratedValue
     private Long id;
 
     @Column(nullable = false)

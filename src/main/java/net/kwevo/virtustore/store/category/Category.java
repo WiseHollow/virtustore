@@ -9,6 +9,7 @@ import javax.persistence.*;
 public class Category {
     @Id
     @Column(nullable = false)
+    @GeneratedValue
     private Long id;
 
     @Column(nullable = false)
